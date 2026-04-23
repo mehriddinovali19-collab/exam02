@@ -11,11 +11,7 @@ def find_pattern(items: list, pattern: str, match_type: str) -> list:
             result.append(item)
     return result
 print(find_pattern(["Ali", "Alisher", "Vali", "Aziz"], "A", "starts"))
-# ["Ali", "Alisher", "Aziz"]
-
 print(find_pattern(["Alisher", "Bobur", "Jasur"], "ur", "ends"))
-# ["Bobur", "Jasur"]
-
 print(find_pattern(["Python", "Java", "JavaScript"], "java", "contains"))
-# ["Java", "JavaScript"]
+
 
