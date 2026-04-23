@@ -9,6 +9,6 @@ cart = {
   'sut': {'price': 8000, 'quantity': 1},
   'olma': {'price': 5000, 'quantity': 5}
 }
-result = calculate_cart(cart)
-print(result)
+print(calculate_cart(cart))
+
 
