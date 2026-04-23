@@ -1,6 +1,6 @@
 
 def calculate(num1: float, num2: float, operator: str) -> float:
-    print("Operator tanlang: +, -, *, /")
+    print("Operator tanlang: +, -, *, /: ")
     if operator == "+":
         return num1 + num2
 
