@@ -1,7 +1,5 @@
 def analyze_grades(students: dict) -> dict: 
-    total = sum(students.values())
-    count = len(students)
-    average = total / count
+    average =  sum(students.values())/  len(students)
     
     above_average = []
     
